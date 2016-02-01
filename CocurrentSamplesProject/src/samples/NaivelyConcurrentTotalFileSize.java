@@ -19,6 +19,11 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeoutException;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * Make change for GitHub commit;
+ * @author hcuser
+ *
+ */
 public class NaivelyConcurrentTotalFileSize {
   private long getTotalSizeOfFilesInDir(
     final ExecutorService service, final File file) 
