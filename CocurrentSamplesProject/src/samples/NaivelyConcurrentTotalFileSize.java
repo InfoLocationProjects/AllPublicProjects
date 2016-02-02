@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Make change for GitHub commit;
  * Make change for remote commit;
- *
+ * Make change at HO;
  */
 public class NaivelyConcurrentTotalFileSize {
   private long getTotalSizeOfFilesInDir(
